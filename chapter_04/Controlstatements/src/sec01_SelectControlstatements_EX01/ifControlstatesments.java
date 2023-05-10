@@ -1,4 +1,4 @@
-package sec_Controlstatements_EX01;
+package sec01_SelectControlstatements_EX01;
 
 public class ifControlstatesments {
 	public static void main(String[] args) {

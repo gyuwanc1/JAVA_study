@@ -1,4 +1,4 @@
-package sec_Controlstatements_EX02;
+package sec01_SelectControlstatements_EX02;
 
 public class SwitchControlStatement {
 	public static void main(String[] args) {
