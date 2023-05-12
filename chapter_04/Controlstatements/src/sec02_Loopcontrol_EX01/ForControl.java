@@ -36,10 +36,25 @@ public class ForControl {
 		for (int i=0, j=0; i<10 ; i++,j++) {
 			System.out.print(i + j+ " ");
 		}	
-		
+		System.out.println();
 		
 		//2. for문의 특수한 형태 (무한루프)
 		
+//		for (int i =0; ; i++) {
+//			System.out.print(i+" ");
+//		}
+//		for (;;) {
+//		System.out.print("무한루프");
+//	}
+		System.out.println();// 무한루프 다음에는 무엇도 실행할수 없다.
+		
+		
 		//3.무한루프 탈출(break)
+		for (int i=0; ; i++) {
+			if(i>10) {
+				break;
+			}
+			System.out.print(i+ " ");
+		}
 	}
 }
