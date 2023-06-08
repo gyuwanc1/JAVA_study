@@ -37,6 +37,8 @@ public class SuperMethod_1 {
 		//2. B객체 생성  부모의 클래스가 호출 후 자식의 생성자 호출
 		B bb = new B(); //A생성자 B생성자
 		
+
+		
 	} 
 
 }
